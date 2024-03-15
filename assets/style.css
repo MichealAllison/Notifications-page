@@ -142,6 +142,12 @@ b {
   border: 1px solid hsl(224, 21%, 14%);
 }
 
+.notification-card:hover {
+  background-color: hsl(211, 68%, 94%);
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 500px) {
   .notification-container {
     width: 90%; /* Adjust width for smaller screens */
