@@ -43,6 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Hide the notification dot
       this.querySelector(".notification-dot").style.display = "none";
+
+      // Decrement the notification count
+      const notificationCount = document.querySelector(".notification-count");
+      notificationCount.textContent =
+        parseInt(notificationCount.textContent) - 1;
     });
   });
 
