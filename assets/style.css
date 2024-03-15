@@ -86,10 +86,19 @@ b {
   color: hsl(219, 12%, 42%);
 }
 
+.focus:hover {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+}
+
 .focus-1 {
   font-size: 14px;
   font-weight: 600;
   color: hsl(219, 85%, 26%);
+}
+
+.focus-1:hover {
+  cursor: pointer;
 }
 
 .notification-p {
@@ -119,6 +128,10 @@ b {
   cursor: pointer;
   color: hsl(219, 14%, 63%);
   font-size: 14px;
+}
+
+.mark-all:hover {
+  color: hsl(224, 21%, 14%);
 }
 
 .notification-card {
